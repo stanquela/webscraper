@@ -2,7 +2,7 @@
 include 'WebScraperClass.php';
 
 $scraper = new WebScraper;
-$html = $scraper->scrape('http://www.nova.rs');
+$html = $scraper->scrape('http://www.example.com');
 
 $i=0;
 $dom = new DOMDocument;
